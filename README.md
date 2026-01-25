@@ -33,3 +33,13 @@ The goal is to classify breast cancer tumors as either **Malignant** or **Benign
 | Naive Bayes | Tied for lowest accuracy (92.11%) but has good AUC (0.9891). Independence assumption may not hold for correlated features. Lower precision (0.9231) leads to more false positives. |
 | Random Forest (Ensemble) | Best overall model with highest accuracy (97.37%), perfect precision (1.0), and best MCC (0.9442). Ensemble approach reduces overfitting and provides robust predictions. Recommended for deployment. |
 | XGBoost (Ensemble) | Second-best performer with 96.49% accuracy and perfect precision (1.0). Gradient boosting effectively captures complex patterns. Slightly lower recall (0.9048) than Random Forest. |
+
+#### Streamlit Web Application
+
+**Live App:** [https://bits-aiml-ml-assignment-2-qdbusuvst7ep5actuleztf.streamlit.app/](https://bits-aiml-ml-assignment-2-qdbusuvst7ep5actuleztf.streamlit.app/)
+
+##### Model Comparison View
+![Model Comparison](images/model_comparision.png)
+
+##### Model Prediction View
+![Model Prediction](images/model_prediction.png)
